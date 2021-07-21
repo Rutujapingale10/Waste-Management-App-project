@@ -47,10 +47,6 @@ def main():
 
 
 
-
-
-
-
       elif choice == "Login":
           st.subheader("Login Section")
           username = st.sidebar.text_input("User Name")
