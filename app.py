@@ -1,12 +1,12 @@
 import streamlit as st
-"""import openpyxl as pxl
+import openpyxl as pxl
 import panda as pd
 
 
 login = pd.read_excel('login.xlsx')
 exp = pxl.load_workbook('login.xlsx')
 sheet = exp['Sheet']
-sheet['D1'] = 'hii'"""
+sheet['D1'] = 'hii'
 
 from streamlit.proto.Button_pb2 import Button 
 def main():
