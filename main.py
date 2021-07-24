@@ -72,7 +72,7 @@ def main():
 
               elif task == "Waste Taker":
                     st.subheader("Waste Taker")
-                    Name = st.text_input("Enter your Name")
+                    compony_Name = st.text_input("Enter your Compony/Industry Name")
                     email_id = st.text_input("Enter your email_id")
                     contact_no = st.text_input("Enter your contact no")
                     address = st.text_input("Enter your address")
