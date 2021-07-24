@@ -9,13 +9,19 @@ import streamlit as st
 #sheet['D1'] = 'hii'
 
 from streamlit.proto.Button_pb2 import Button 
+from src import text
 def main():
+
       st.title("Waste Management App")
-      menu = ["Home","Login","Signup"]
+      menu = ["Home","Login","Signup","text"]
       choice = st.sidebar.selectbox("Menu",menu)
       
-      
+      if choice== "text":
+          text.textFm()
+          
+
       if choice == "Home":
+
           st.subheader("Home") 
           st.title("GARBAGE MANAGEMENT APP")
           from PIL import Image
