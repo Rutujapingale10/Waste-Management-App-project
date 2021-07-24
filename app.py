@@ -10,9 +10,10 @@ sheet['D1'] = 'hii'"""
 
 from streamlit.proto.Button_pb2 import Button 
 def main():
-      st.title("Login Page")
+      st.title("Waste Management App")
       menu = ["Home","Login","Signup"]
       choice = st.sidebar.selectbox("Menu",menu)
+      
       
       if choice == "Home":
           st.subheader("Home") 
