@@ -18,7 +18,7 @@ def main():
           st.subheader("Home") 
           st.title("GARBAGE MANAGEMENT APP")
           from PIL import Image
-          img = Image.open("save earth from garbage.jpg") 
+          img = Image.open("save earth from garbage.jpeg") 
           st.image(img,width=600)
           st.subheader("About Us:")
           st.text("The aim of the project is to provide a better solution to waste management.")
